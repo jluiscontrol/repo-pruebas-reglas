@@ -42,7 +42,7 @@ if (isset($_SESSION["nombres"])) {
 
 
                 <div class="col">
-                    <label for="entidad_banco_select">Entidad/banco/silla:</label>
+                    <label for="entidad_banco_select">Entidad/banco/sillas:</label>
 
                     <select onchange="cambio_select_banco(this)" id="entidad_banco_select" class="form-control">
 
