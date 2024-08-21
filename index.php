@@ -9,7 +9,7 @@ if (isset($_SESSION["nombres"])) {
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Operaciones</title>
+        <title>Operaciones de rescate</title>
         <?php
         include 'cabecera.php';
         ?>
@@ -26,7 +26,7 @@ if (isset($_SESSION["nombres"])) {
         <div class="row" style="width: 100%;display: flex;margin: 0px">
             <div class="col-md-12 row">
                 <div class="col-md-6">
-                    <p style="text-align: left">Bienvenido: <?php echo "{$_SESSION["nombres"]}" ?></p>
+                    <p style="text-align: left">Bienvenido mi llave dos: <?php echo "{$_SESSION["nombres"]}" ?></p>
                 </div>
                 <div class="col-md-6">
                     <p style="text-align: right"><?php
@@ -42,7 +42,7 @@ if (isset($_SESSION["nombres"])) {
 
 
                 <div class="col">
-                    <label for="entidad_banco_select">Entidad/banco:</label>
+                    <label for="entidad_banco_select">Entidad/banco/sillas:</label>
 
                     <select onchange="cambio_select_banco(this)" id="entidad_banco_select" class="form-control">
 
@@ -60,7 +60,7 @@ if (isset($_SESSION["nombres"])) {
 
 
                 <div class="col">
-                    <label for="valor">Valor:</label>
+                    <label for="valor">Valor en dolares:</label>
                     <input value="0.00" onfocus="al_final(this)" class="form-control" step=".01" id="valor"
                            type="number">
                 </div>
@@ -82,7 +82,7 @@ if (isset($_SESSION["nombres"])) {
                     <input class="form-control" id="referencia" type="text">
                 </div>
                 <div class="col">
-                    <label for="comentario">Comentario</label>
+                    <label for="comentario">Comentario de la transaccion</label>
                     <textarea class="form-control" id="comentario" rows="1" maxlength="200"></textarea>
                 </div>
                 <br>
