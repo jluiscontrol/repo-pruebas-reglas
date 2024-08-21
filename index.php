@@ -26,7 +26,7 @@ if (isset($_SESSION["nombres"])) {
         <div class="row" style="width: 100%;display: flex;margin: 0px">
             <div class="col-md-12 row">
                 <div class="col-md-6">
-                    <p style="text-align: left">Bienvenido mi llave: <?php echo "{$_SESSION["nombres"]}" ?></p>
+                    <p style="text-align: left">Bienvenido mi llave dos: <?php echo "{$_SESSION["nombres"]}" ?></p>
                 </div>
                 <div class="col-md-6">
                     <p style="text-align: right"><?php
