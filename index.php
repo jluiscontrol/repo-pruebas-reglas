@@ -60,7 +60,7 @@ if (isset($_SESSION["nombres"])) {
 
 
                 <div class="col">
-                    <label for="valor">Valor:</label>
+                    <label for="valor">Valor en dolares:</label>
                     <input value="0.00" onfocus="al_final(this)" class="form-control" step=".01" id="valor"
                            type="number">
                 </div>
@@ -82,7 +82,7 @@ if (isset($_SESSION["nombres"])) {
                     <input class="form-control" id="referencia" type="text">
                 </div>
                 <div class="col">
-                    <label for="comentario">Comentario</label>
+                    <label for="comentario">Comentario de la transaccion</label>
                     <textarea class="form-control" id="comentario" rows="1" maxlength="200"></textarea>
                 </div>
                 <br>
