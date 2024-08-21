@@ -9,7 +9,7 @@ if (isset($_SESSION["nombres"])) {
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Operaciones de rescate JAJAJA</title>
+        <title>Operaciones de rescate</title>
         <?php
         include 'cabecera.php';
         ?>
