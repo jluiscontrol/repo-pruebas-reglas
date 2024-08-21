@@ -22,7 +22,7 @@ if (isset($_SESSION["nombres"])) {
 
 
         <div class="row" style="width: 100%;display: flex">
-            <p style="text-align: right">Bienvenido: <?php echo "{$_SESSION["nombres"]}" ?></p>
+            <p style="text-align: right">Bienvenido al ejemplo de prueba: <?php echo "{$_SESSION["nombres"]}" ?></p>
 
 
         </div>
