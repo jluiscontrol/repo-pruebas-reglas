@@ -8,7 +8,7 @@ if (isset($_SESSION["nombres"])) {
     <!DOCTYPE html>
     <html>
     <head>
-        <title>Operaciones</title>
+        <title>Operaciones PRUEBA</title>
         <?php
         include 'cabecera.php';
         ?>
